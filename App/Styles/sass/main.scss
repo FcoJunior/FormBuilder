@@ -1,0 +1,15 @@
+@import
+"variables",
+"reset",
+"button",
+"input",
+"form";
+
+
+@include input($colorInfo, "input-form-info");
+
+@include form($colorPrimary, "primary");
+@include form($colorSecondary, "secondary");
+
+@include button($colorInfo, "btn-info");
+@include button($colorAlert, "btn-alert");

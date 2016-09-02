@@ -1,0 +1,81 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0; }
+
+.form {
+  margin: 1em auto;
+  max-width: 20em;
+  padding: 1em;
+  border-radius: 5px; }
+
+.input-form-info[type="text"],
+.input-form-info[type="password"],
+.input-form-info[type="date"],
+.input-form-info[type="tel"] {
+  margin-top: 0.4em;
+  border: 0px;
+  border-bottom: 0.1em solid #2196F3;
+  padding: 0.5em 0; }
+  .input-form-info[type="text"] :focus,
+  .input-form-info[type="password"] :focus,
+  .input-form-info[type="date"] :focus,
+  .input-form-info[type="tel"] :focus {
+    outline: none; }
+
+.primary {
+  box-shadow: 0.1em 0.1em 0.6em #95a5a6; }
+  .primary .form-header {
+    margin: 0.5em 0;
+    font-size: 1.5em; }
+  .primary .group {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0.4em 0em; }
+    .primary .group label {
+      font-weight: 400;
+      color: #95a5a6; }
+
+.secondary {
+  box-shadow: 0.1em 0.1em 0.6em #2980b9; }
+  .secondary .form-header {
+    margin: 0.5em 0;
+    font-size: 1.5em; }
+  .secondary .group {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0.4em 0em; }
+    .secondary .group label {
+      font-weight: 400;
+      color: #2980b9; }
+
+.btn-info {
+  padding: 0.5em 0.5em;
+  border-radius: 0;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  border-bottom: 0.5em solid #0c7cd5;
+  background-color: #2196F3;
+  cursor: pointer; }
+
+.btn-info:hover {
+  border-bottom: 0.5em solid #2196F3;
+  background-color: #0c7cd5; }
+
+.btn-alert {
+  padding: 0.5em 0.5em;
+  border-radius: 0;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  border-bottom: 0.5em solid #eb2521;
+  background-color: #EF5350;
+  cursor: pointer; }
+
+.btn-alert:hover {
+  border-bottom: 0.5em solid #EF5350;
+  background-color: #eb2521; }
+
+/*# sourceMappingURL=main.css.map */

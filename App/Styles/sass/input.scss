@@ -1,0 +1,14 @@
+@mixin input($color, $class) {
+  .#{$class}[type="text"],
+  .#{$class}[type="password"],
+  .#{$class}[type="date"],
+  .#{$class}[type="tel"] {
+    margin-top: 0.4em;
+    border: 0px;
+    border-bottom: 0.1em solid $color;
+    padding: $padding;
+    :focus {
+      outline: none;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+@mixin button($color, $class) {
+  .#{$class} {
+    padding: 0.5em 0.5em;
+    border-radius: 0;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    border-bottom: 0.5em solid darken($color, 10%);
+    background-color: $color;
+    cursor: pointer;
+  }
+  .#{$class}:hover {
+    border-bottom: 0.5em solid $color;
+    background-color: darken($color, 10%);
+  }
+}
